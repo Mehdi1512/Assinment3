@@ -1,0 +1,306 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+   .header{
+       width: 100%;
+       height: 50px;
+       background-color: rgb(45, 105, 218);
+   }
+     .icons{
+         width: 15%;
+         height: 50px;
+         float: left;
+           }
+  .icons  {
+    float: left;
+      list-style: none;
+      line-height: 50px;
+      margin-left: 15px;
+      padding: 2px;
+      
+       
+       }
+       .icons a{
+           padding: 10px;
+       }
+       .fa-whatsapp{
+           color: rgb(34, 241, 34);
+       }
+  .text{
+      width: 55%;
+      height: 50px;
+      float:left;
+       
+        }
+  .text span{
+      line-height: 50px;
+      color: white;
+      margin-left: 40px;
+      
+  }
+  .Btns{
+      width:30%;
+      height:50px;
+      float: right;
+      margin-top: -50px;
+      
+      
+
+       }
+  .Btns ul li{
+      list-style: none;
+      display: inline-block;
+      line-height: 50px;
+       margin-left: 10px;
+       }
+      .Btns ul li a{
+          text-decoration: none;
+          color: rgb(27, 167, 27);
+          font-size: small;
+          border: 1px solid rgb(236, 226, 207);
+          padding: 6px;
+          background-color: rgb(216, 209, 197)
+          
+      }
+       
+      
+  .head{
+      width: 100%;
+      height: 70px;
+       
+       
+  }
+.logo{
+    width: 20%;
+    height: 70px;
+    float: left;
+     
+    margin-left: -200px;
+    
+}
+.logo img{
+    line-height: 70px;
+     
+    margin-top: 10px;
+}
+ .menu{
+     width: 70%;
+     height: 70px;
+     float: left;
+      
+      
+     
+         
+ }
+ .menu ul li{
+     list-style: none;
+      float: left;
+      margin-left: 60px;
+     line-height: 70px;
+      
+      }
+
+ .menu ul li a{
+     text-decoration: none;
+     color: black;
+      font-family:    Arial, Helvetica, sans-serif;
+       
+       
+}
+.menu ul li a:hover{
+         background-color: rgb(28, 160, 28);
+         border-radius: 8px;
+         color: white;
+}
+ 
+.animation{
+    height: 30px;
+     
+     
+}
+.animation  marquee font {
+    line-height: 30px;
+}
+  .intro{
+      text-align: center;
+       text-transform: uppercase;
+      font-size: x-large;
+      padding-top: 60px;
+  }
+.in-text{
+     color: rgb(96, 7, 104);
+}
+.icon{
+      text-align: center; 
+      padding-top: 10px;
+}
+.biography{
+    width: 70%;
+    height: 70%;
+     margin-left: 15%;
+     background-color:  whitesmoke
+      
+     }
+      .biography p{
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             color: black  
+    }
+      .count {
+        display: flex;
+        background-color: rgb(2, 98, 233);
+        margin-top: 50px;
+    }
+    .count .expenses {
+        height:300px;
+        width: 300px;
+}
+.task{
+    width: 100%;
+    height: 650px;
+    background-color:  #f7f8fa;
+}
+.task-logo{
+    margin-left: 610px;
+    margin-top: 10px;
+}
+.mixed{
+    width: 100%;
+    height:  90%;
+    
+      
+}
+.doing{
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    display: inline-flex;
+    margin-top: 2%;
+     margin-left: 4%;
+    color: rgb(39, 179, 226);
+    border: 2px solid #efefef;
+    box-shadow: 5px 5px 10px 5px  rgb(217, 232, 241);
+}
+.mission{
+    width: 100%;
+    height: 50%;
+    margin-top: 0px;
+    background-color:#fff;
+
+}
+ 
+   .mixed1  {
+       width: 60%;
+       height:60%;
+        background-color: #fff;
+ }
+ .projects{
+    border: 1px solid #eee;
+    background-color:rgba(238, 238, 238, 0.349);
+    display: inline-flex;
+    width: 300px;
+    height: 74px;
+ }
+  .events{
+    display: flex;
+    flex-direction: column;
+    float: right;
+  }
+     .photoalbum h2{
+       text-align: center;
+     }
+     
+.in-text2{
+    color: rgb(96, 7, 104);
+    text-align: center;
+}
+.icon2{
+    text-align: center;
+}
+.images{
+    width:100%;
+    height: 100%;
+   
+    display: flex;
+     margin-top: 2%;
+}
+.footer{
+    height:350px;
+    width: 100%;
+    background-color:#25272e;
+    margin-top: 10%;
+}
+.address p{
+     padding-top: 5%;
+}
+ .f-icons  {
+     color: honeydew;
+     margin-left: 5%;
+     list-style: none;
+     margin-top: 5px;
+     padding-top: 5px;
+     padding-left: 5px;
+      
+     
+ }
+ .fa-phone{
+     color: green;
+     padding: 5px;
+ }
+ .fa-globe{
+     color: green;
+     padding: 5px;
+ }
+ .fa-envelope-open-o{
+     color: green;
+     padding: 5px;
+ }
+ .social{
+     
+     display: flex;
+     justify-content: center;
+     list-style: none;
+     text-align: center;
+     margin-right: -45%;
+      
+ }
+ .social a {
+     height: 100px;
+     width: 100px; background-color: #caccd4;
+     margin: 10px;
+     margin-top: -15%;
+     text-align: center;
+     border-radius: 50px;
+     box-shadow: 1px 4px 2px 2px; color: #dcdde1;
+     line-height: 110px;
+     position: relative;
+
+ }
+ .fa-facebook{
+     color: rgb(182, 238, 70);
+ }
+   .fa-instagram{
+       color: #0097e6;
+   }
+   .fa-youtube{
+       color: #d84019 ;
+   }
+   .fa-twitter{
+       color: #e841f7;
+   }
+   a i {
+       transition: all 0.3s linear;
+   }
+      a:hover .fa{
+           transform: scale(1.4);
+           color: black;
+      }
+       .copy{
+           width: 100%;
+           height: 50px;
+           background-color: #0097e6;
+       }
+  
